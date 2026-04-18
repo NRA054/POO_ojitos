@@ -43,7 +43,7 @@ let eyeX = 200;
 let eyeY = 200;
 
 
-function setup() {
+ function setup() {
   createCanvas(400, 400);
   frameRate(24);
 

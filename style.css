@@ -1,7 +1,38 @@
 html, body {
   margin: 0;
   padding: 0;
+  background: #0d1620;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
 }
+
 canvas {
   display: block;
+}
+
+#hud {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 12px 14px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  max-width: 240px;
+}
+
+#hud div {
+  margin-bottom: 6px;
+}
+
+#hud .message {
+  margin-top: 10px;
+  color: #ffea7f;
+  font-weight: 700;
+}
+
+#hud .level {
+  color: #aaf2ff;
+  font-size: 0.95rem;
 }
